@@ -15,10 +15,8 @@ export default function Trials() {
                 </p>
                 <p className="pl-3 pt-3 text-sm text-learnMoreColor">Learn more</p>
             </span>
-            <div className="flex pt-10 justify-evenly"
-                style={{marginLeft:"6.813rem", marginRight:"6.813rem"}}
-            >
-                <div style={{border:"1px solid grey"}}>
+            <div className="flex pt-10 justify-center ml-28 mr-28">
+                <div className="mr-4 w-72" style={{border:"1px solid grey"}}>
                     <Image
                         src="/../public/climb.png"
                         width={292}
@@ -37,7 +35,7 @@ export default function Trials() {
                     </p>
                     <p className="pl-3 pt-3 text-xs text-learnMoreColor pb-6">Learn more</p>
                 </div>
-                <div style={{border:"1px solid grey"}}>
+                <div className="mr-4 w-72" style={{border:"1px solid grey"}}>
                     <Image
                         src="/../public/fast.png"
                         width={292}
@@ -56,7 +54,7 @@ export default function Trials() {
                     </p>
                     <p className="pl-3 pt-3 text-xs text-learnMoreColor">Learn more</p>
                 </div>
-                <div style={{border:"1px solid grey"}}>
+                <div className="mr-4 w-72" style={{border:"1px solid grey"}}>
                     <Image
                         src="/../public/encore.png"
                         width={292}
@@ -75,7 +73,7 @@ export default function Trials() {
                     </p>
                     <p className="pl-3 pt-3 text-xs text-learnMoreColor">Learn more</p>
                 </div>
-                <div style={{border:"1px solid grey"}}>
+                <div className="w-72" style={{border:"1px solid grey"}}>
                     <Image
                         src="/../public/hepatic.png"
                         width={292}

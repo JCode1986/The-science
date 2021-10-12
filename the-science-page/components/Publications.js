@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Publications() {
     return (
-        <div className="bg-statisticsBgColor">
+        <div className="bg-statisticsBgColor pb-20">
             <div className="ml-28 mr-28">
                 <h2 className="text-4xl pt-16 pb-5">Publications</h2>
                 <p className="pb-11">We are dedicated to making accurate early detection tests for more cancers. Helio is currently engaged in <br/> multiple pivotal, multi-center trial in the US and China.</p>
                 <div className="flex justify-between">
-                    <div className="pr-4"style={{border:"1px solid grey"}}>
+                    <div className="pr-4 mr-4"style={{border:"1px solid grey"}}>
                         <span>
                             <h4 className="pt-5 pl-3 pb-2 text-darkgrey font-bold">
                                 Cellular Heterogeneity-Adjusted cLonal <br/> Methahylation (CHALM) improves prediction of <br/> gene expression
@@ -20,7 +20,7 @@ export default function Publications() {
                             </p>
                         </span>
                     </div>
-                    <div className="pr-4"style={{border:"1px solid grey"}}>
+                    <div className="pr-4 mr-4"style={{border:"1px solid grey"}}>
                         <span>
                             <h4 className="pt-5 pl-3 pb-2 text-darkgrey font-bold">
                                 Cellular Heterogeneity-Adjusted cLonal <br/> Methahylation (CHALM) improves prediction of <br/> gene expression

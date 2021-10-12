@@ -2,19 +2,21 @@ import React from 'react'
 import Image from 'next/image';
 
 export default function Statistics() {
+
+    const circle = {
+        display: "flex",
+        width: "219.67px",
+        height: "219.67px",
+        borderRadius: "50%",
+        paddingBottom: "47.73",
+        border:"10px solid #EDEEEF"
+    };
+
     return (
         <div className="flex mt-4 bg-statisticsBgColor">
-            <div className="flex-50% text-left" 
-            style={{
-                height: '733px',
-                width: '1440px',
-                marginTop: '20px'
-            }}>
-                <div 
-                    style={{
-                        paddingTop: '135px',
-                        paddingLeft: '118px',
-                    }}>
+            <div className="flex-50% text-left mt-5" 
+            style={{ height: '733px', width: '1440px'}}>
+                <div className="pt-32 pl-28">
                     <h1 style={{
                         fontSize:"36px",
                         lineHeight: "46.8px"
@@ -46,77 +48,39 @@ export default function Statistics() {
                         width={159}
                         height={60}
                 />
-                <h3 className="p-2">Standard of Care: <br/> Ultrasound</h3>
-                <div className="p-2"
-                    style={{
-                        display: "flex",
-                        width: "219.67px",
-                        height: "219.67px",
-                        borderRadius: "50%",
-                        paddingBottom: "47.73",
-                        border:"10px solid #EDEEEF"
-                    }}
-                >
-                    <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>60%</p>
+                <h3 className="p-2 font-medium">Standard of Care: <br/> Ultrasound</h3>
+                <div className="p-2"style={circle}>
+                    <span className="m-auto text-center">
+                        <h3 style={{fontSize:"52px"}}>60%</h3>
                         <p>Sensitivity for <br/>
                         Small Lesions <br/>
                         {"<2cm"}
                         </p>
-                    </div>   
+                    </span>   
                 </div>
-                <div className="p-2"
-                    style={{
-                        display: "flex",
-                        width: "219.67px",
-                        height: "219.67px",
-                        borderRadius: "50%",
-                        paddingBottom: "47.73",
-                        border:"10px solid #EDEEEF"
-                    }}
-                >
-                    <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>20%</p>
+                <div className="p-2"style={circle}>
+                    <span className="m-auto text-center">
+                        <h3 style={{fontSize:"52px"}}>20%</h3>
                         <p>Sensitivity for<br/>
                             Small Lesions <br/>
                             {"<2cm"}
                         </p>
-                    </div>   
+                    </span>   
                 </div>
-                <div className="p-2"
-                    style={{
-                        display: "flex",
-                        width: "219.67px",
-                        height: "219.67px",
-                        borderRadius: "50%",
-                        paddingBottom: "47.73",
-                        border:"10px solid #EDEEEF",
-                    }}
-                >
-                    <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>85%</p>
-                        <p>Sensitivity for All<br/>
-                        Cancers <br/>
-                        {"<2cm"}
+                <div className="p-2" style={circle}>
+                    <span className="m-auto text-center">
+                        <h3 style={{fontSize:"52px"}}>85%</h3>
+                        <p>Sensitivity for All<br/> Cancers
                         </p>
-                    </div>   
+                    </span>   
                 </div>
-                <div className="p-2"
-                    style={{
-                        display: "flex",
-                        width: "219.67px",
-                        height: "219.67px",
-                        borderRadius: "50%",
-                        paddingBottom: "47.73",
-                        border:"10px solid #EDEEEF"
-                    }}
-                >
-                    <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>47%</p>
+                <div className="p-2" style={circle}>
+                    <span className="m-auto text-center">
+                        <h3 style={{fontSize:"52px"}}>47%</h3>
                         <p>Sensitivity for All<br/>
                         Cancers <br/>
                         </p>
-                    </div>   
+                    </span>   
                 </div>
             </div>
         </div>
