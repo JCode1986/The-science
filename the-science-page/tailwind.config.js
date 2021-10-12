@@ -8,7 +8,10 @@ module.exports = {
       white: '#FFFFFF',
       darkgrey: '#414B56',
       mediumgrey: '#CDCDCD',
-      statisticsBgColor: '#F9F9F9'
+      statisticsBgColor: '#F9F9F9',
+      learnMoreColor: "#1588C5",
+      recruitingColor: "#3B9525",
+      inProgressColor: "#FFC373"
     },
     flex: {
       '25%': '1 1 25%',

@@ -10,7 +10,9 @@ export default function Advisors() {
                     lineHeight: "46.8px"
                 }}
             >Our Scientific Advisors</h1>
-            <div className="flex justify-evenly ml-8 mr-8 m-auto">
+            <div className="flex justify-evenly ml-8 mr-8 m-auto text-center"
+                style={{marginLeft:"14.125rem", marginRight:"14.125rem"}}
+            >
                 <div>
                     <Image
                         src="/../public/image1.png"

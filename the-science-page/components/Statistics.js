@@ -40,58 +40,11 @@ export default function Statistics() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-40%"
-                style={{
-                    paddingTop: "159px",                   
-                }}
-            >
-            <div className="flex-50%">
-                <div className="flex flex-col pb-6 justify-evenly">
-                    <p  className="text-center">Helio Liver</p>
-                </div>
-                <div style={{
-                      display: "flex",
-                      width: "219.67px",
-                      height: "219.67px",
-                      borderRadius: "50%",
-                      paddingBottom: "47.73",
-                      border:"10px solid #EDEEEF"
-                }}
-                >
-                    <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>60%</p>
-                        <p>Sensitivity for <br/>
-                        Smals Lesions <br/>
-                        {"<2cm"}
-                        </p>
-                    </div>
-                </div>
-                <div style={{
-                      display: "flex",
-                      width: "219.67px",
-                      height: "219.67px",
-                      borderRadius: "50%",
-                      paddingTop: "47.73",
-                      border:"10px solid #EDEEEF"
-                }}
-                >
-                    <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>85%</p>
-                        <p>Sensitivity for All <br/>
-                        Cancers<br/>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-                <div className="flex-50%">
-                    <div className="flex flex-col pb-6">
-                        <p>
-                            Standard of Care: <br/>
-                            Ultrasound
-                        </p>
-                    </div>
-                    <div style={{
+            <div className="grid grid-cols-2 py-32 text-center gap-7 mr-32">
+                <h3 className="p-2">Helio Health</h3>
+                <h3 className="p-2">Standard of Care: <br/> Ultrasound</h3>
+                <div className="p-2"
+                    style={{
                         display: "flex",
                         width: "219.67px",
                         height: "219.67px",
@@ -99,60 +52,70 @@ export default function Statistics() {
                         paddingBottom: "47.73",
                         border:"10px solid #EDEEEF"
                     }}
-                    >
-                        <div style={{margin:"auto", textAlign:"center"}}>
-                            <p style={{fontSize:"52px"}}>20%</p>
-                            <p>Sensitivity for <br/>
-                            Small lesions <br/>
-                            {"<2cm"}
-                            </p>
-                        </div>
-                    </div>
-                    <div 
-                        style={{
+                >
+                    <div style={{margin:"auto", textAlign:"center"}}>
+                        <p style={{fontSize:"52px"}}>60%</p>
+                        <p>Sensitivity for <br/>
+                        Smals Lesions <br/>
+                        {"<2cm"}
+                        </p>
+                    </div>   
+                </div>
+                <div className="p-2"
+                    style={{
                         display: "flex",
                         width: "219.67px",
                         height: "219.67px",
                         borderRadius: "50%",
-                        paddingTop: "47.73",
+                        paddingBottom: "47.73",
                         border:"10px solid #EDEEEF"
                     }}
-                    >
-                        <div style={{margin:"auto", textAlign:"center"}}>
-                            <p style={{fontSize:"52px"}}>47%</p>
-                            <p>Sensitivity for All <br/>
-                            Cancers<br/>
-                            </p>
-                        </div>
-                    </div>
+                >
+                    <div style={{margin:"auto", textAlign:"center"}}>
+                        <p style={{fontSize:"52px"}}>60%</p>
+                        <p>Sensitivity for <br/>
+                        Smals Lesions <br/>
+                        {"<2cm"}
+                        </p>
+                    </div>   
+                </div>
+                <div className="p-2"
+                    style={{
+                        display: "flex",
+                        width: "219.67px",
+                        height: "219.67px",
+                        borderRadius: "50%",
+                        paddingBottom: "47.73",
+                        border:"10px solid #EDEEEF"
+                    }}
+                >
+                    <div style={{margin:"auto", textAlign:"center"}}>
+                        <p style={{fontSize:"52px"}}>60%</p>
+                        <p>Sensitivity for <br/>
+                        Smals Lesions <br/>
+                        {"<2cm"}
+                        </p>
+                    </div>   
+                </div>
+                <div className="p-2"
+                    style={{
+                        display: "flex",
+                        width: "219.67px",
+                        height: "219.67px",
+                        borderRadius: "50%",
+                        paddingBottom: "47.73",
+                        border:"10px solid #EDEEEF"
+                    }}
+                >
+                    <div style={{margin:"auto", textAlign:"center"}}>
+                        <p style={{fontSize:"52px"}}>60%</p>
+                        <p>Sensitivity for <br/>
+                        Smals Lesions <br/>
+                        {"<2cm"}
+                        </p>
+                    </div>   
                 </div>
             </div>
-            {/* <div className="grid grid-cols-2 py-32">
-                <div className="p-2">Helio Health</div>
-                <div className="p-2">Helio Health</div>
-                <div className="p-2"
-                style={{
-                    display: "flex",
-                    width: "219.67px",
-                    height: "219.67px",
-                    borderRadius: "50%",
-                    paddingBottom: "47.73",
-                    border:"10px solid #EDEEEF"
-              }}
-            >
-                <div style={{margin:"auto", textAlign:"center"}}>
-                    <p style={{fontSize:"52px"}}>60%</p>
-                    <p>Sensitivity for <br/>
-                    Smals Lesions <br/>
-                    {"<2cm"}
-                    </p>
-                </div>   
-            </div>
-                <div className="p-2">3</div>
-                <div className="p-2">4</div>
-                <div className="p-2">5</div>
-                <div className="p-2">6</div>
-            </div> */}
         </div>
     )
 }
