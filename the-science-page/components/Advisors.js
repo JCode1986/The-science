@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Advisors() {
     return (
-        <div>
+        <div style={{marginBottom:"254px"}}>
             <h1 className="text-center pt-20 pb-16"
                 style={{
                     fontSize:"36px",
