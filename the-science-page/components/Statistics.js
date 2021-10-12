@@ -83,6 +83,7 @@ export default function Statistics() {
                     </div>
                 </div>
             </div>
+            
                 <div className="flex-50%">
                     <div className="flex flex-col pb-6">
                         <p>
