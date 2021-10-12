@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Evidence from '../components/Evidence'
 import Statistics from '../components/Statistics'
 import Advisors from '../components/Advisors'
+import Trials from '../components/Trials'
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
 
       {/* Advisors */}
       <Advisors />
+      
       {/* Trials */}
-
+      <Trials />
       {/* Publications */}
 
       {/* Footer */}

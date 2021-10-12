@@ -3,14 +3,16 @@ import Image from 'next/image';
 
 export default function Advisors() {
     return (
-        <div>
+        <div style={{marginBottom:"254px"}}>
             <h1 className="text-center pt-20 pb-16"
                 style={{
                     fontSize:"36px",
                     lineHeight: "46.8px"
                 }}
             >Our Scientific Advisors</h1>
-            <div className="flex justify-evenly ml-8 mr-8 m-auto">
+            <div className="flex justify-evenly ml-8 mr-8 m-auto text-center"
+                style={{marginLeft:"14.125rem", marginRight:"14.125rem"}}
+            >
                 <div>
                     <Image
                         src="/../public/image1.png"

@@ -4,11 +4,7 @@ import Image from 'next/image';
 export default function Header() {
     return (
         <div className="flex pt-8">
-            <div className="flex-60% text-left"
-                style={{
-                    paddingLeft: '122px'
-                }}
-            >
+            <div className="flex-60% text-left ml-32">
                <h1 className="text-5xl mb-4"
                 style={{
                     paddingTop: '107px'
