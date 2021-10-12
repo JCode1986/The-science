@@ -41,7 +41,11 @@ export default function Statistics() {
                 </div>
             </div>
             <div className="grid grid-cols-2 py-32 text-center gap-7 mr-32">
-                <h3 className="p-2">Helio Health</h3>
+                <Image
+                        src="/../public/helio-health.png"
+                        width={159}
+                        height={60}
+                />
                 <h3 className="p-2">Standard of Care: <br/> Ultrasound</h3>
                 <div className="p-2"
                     style={{
@@ -56,7 +60,7 @@ export default function Statistics() {
                     <div style={{margin:"auto", textAlign:"center"}}>
                         <p style={{fontSize:"52px"}}>60%</p>
                         <p>Sensitivity for <br/>
-                        Smals Lesions <br/>
+                        Small Lesions <br/>
                         {"<2cm"}
                         </p>
                     </div>   
@@ -72,9 +76,27 @@ export default function Statistics() {
                     }}
                 >
                     <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>60%</p>
-                        <p>Sensitivity for <br/>
-                        Smals Lesions <br/>
+                        <p style={{fontSize:"52px"}}>20%</p>
+                        <p>Sensitivity for<br/>
+                            Small Lesions <br/>
+                            {"<2cm"}
+                        </p>
+                    </div>   
+                </div>
+                <div className="p-2"
+                    style={{
+                        display: "flex",
+                        width: "219.67px",
+                        height: "219.67px",
+                        borderRadius: "50%",
+                        paddingBottom: "47.73",
+                        border:"10px solid #EDEEEF",
+                    }}
+                >
+                    <div style={{margin:"auto", textAlign:"center"}}>
+                        <p style={{fontSize:"52px"}}>85%</p>
+                        <p>Sensitivity for All<br/>
+                        Cancers <br/>
                         {"<2cm"}
                         </p>
                     </div>   
@@ -90,28 +112,9 @@ export default function Statistics() {
                     }}
                 >
                     <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>60%</p>
-                        <p>Sensitivity for <br/>
-                        Smals Lesions <br/>
-                        {"<2cm"}
-                        </p>
-                    </div>   
-                </div>
-                <div className="p-2"
-                    style={{
-                        display: "flex",
-                        width: "219.67px",
-                        height: "219.67px",
-                        borderRadius: "50%",
-                        paddingBottom: "47.73",
-                        border:"10px solid #EDEEEF"
-                    }}
-                >
-                    <div style={{margin:"auto", textAlign:"center"}}>
-                        <p style={{fontSize:"52px"}}>60%</p>
-                        <p>Sensitivity for <br/>
-                        Smals Lesions <br/>
-                        {"<2cm"}
+                        <p style={{fontSize:"52px"}}>47%</p>
+                        <p>Sensitivity for All<br/>
+                        Cancers <br/>
                         </p>
                     </div>   
                 </div>
