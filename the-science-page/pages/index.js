@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Evidence from '../components/Evidence'
 
 export default function Home() {
   return (
@@ -8,15 +9,21 @@ export default function Home() {
         <title>Helio Liver</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-     {/* Header */}
-     <Header />
-     {/* Advisors */}
+      
+      {/* Header */}
+      <Header />
+      
+      {/* Evidence */}
+      <Evidence />
+      {/* Evaluation */}
 
-     {/* Trials */}
+      {/* Advisors */}
 
-     {/* Publications */}
+      {/* Trials */}
 
-     {/* Footer */}
+      {/* Publications */}
+
+      {/* Footer */}
    </div>
   )
 }

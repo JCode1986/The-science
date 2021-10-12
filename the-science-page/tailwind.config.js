@@ -6,12 +6,14 @@ module.exports = {
     colors: {
       orange: '#DD4F05',
       white: '#FFFFFF',
-      darkgreay: '#414B56'
+      darkgrey: '#414B56',
+      mediumgrey: '#CDCDCD'
     },
     flex: {
-      '1/4': '1 1 25%',
-      '1/2': '1 1 50%',
-      '1/3': '1 1 25%'
+      '25%': '1 1 25%',
+      '50%': '1 1 50%',
+      '25%': '1 1 25%',
+      '60%': '1 1 60%'
     },
     extend: {},
   },

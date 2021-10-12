@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Header() {
     return (
-        <header className="position-absolute pt-5 pl-5 h-20 w-auto">
+        <header className="position-absolute pt-5 pl-5 h-20 w-auto border-b-2 border-mediumgrey">
             <ul className="flex justify-around items-center">
                     <Image
                         src="/../public/helio-health.png"
