@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 14.063rem;
+    margin-right: 14.063rem;
+}
+
+.title {
+    margin-top: 5.625rem;
+    margin-bottom: 3.688rem;
+    text-align: center;
+    height: 47px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 130%;
+    color: #414B56;
+}
+.advisors {
+    height: 22px;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #414B56;
+    font-style: normal;
+}
+
+.advisorsName {
+    font-weight: 800;
+}
+
+.advisorsTitle {
+    font-weight: normal;
+}
+
+.advisorImage {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1012px){
+    .container {
+        align-items: center;  
+        flex-wrap: wrap; 
+        margin: 2rem;
+    }
+}

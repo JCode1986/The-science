@@ -1,0 +1,68 @@
+.container {
+    border-bottom: 1px solid #CDCDCD;
+}
+
+.header {
+    height: 80px;
+}
+
+.contents {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
+
+.helioLogo {
+    margin-right: auto;
+    margin-left: 2.75rem;
+}
+
+.buttonText {
+    position: static;
+    margin:auto;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 141%;
+}
+
+#orderNowButtonText {
+    color: #FFFFFF;
+}
+
+#logInButtonText {
+    color: #414B56;
+}
+
+.button {
+    background: #DD4F05;
+    width: 130px;
+    height: 43px;
+    border-radius: 4px;
+}
+
+#logInButton {
+    width: 95px;    
+    background: #FFFFFF;
+    border: 1px solid #7A828C;
+    box-sizing: border-box;
+    margin-right: 3.188rem;
+    margin-left: 0.688rem;
+}
+
+.list {
+    margin-right: 2.563rem;
+    height: 23px;
+    top: 28px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 141%;
+    color: #414B56;
+}
+
+
+

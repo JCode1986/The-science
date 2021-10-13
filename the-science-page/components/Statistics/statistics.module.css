@@ -1,0 +1,110 @@
+.parentContainer {
+    background: #F9F9F9;
+    display: flex;
+    margin-top: 2rem ;
+    padding-bottom: 4.769rem;
+    width: 100%
+}
+
+.statisticsText {
+    margin-left: 7.375rem;
+    flex: 1 1 60vh;
+}
+
+.gridContainer {
+    flex: 1 1 40vh;
+    margin-right: 1.8rem;
+    margin-top: 4.567rem;
+}
+
+.gridElements {
+    /* width: min(90%, 75rem); */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    grid-gap: 25px .5rem;
+}
+
+.statisticsHeader {
+    margin-top: 8.438rem;
+    width: 542px;
+    height: 94px;
+    left: 118px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #000000;
+}
+
+.statisticsDescription {
+    width: 542px;
+    height: 224px;
+    left: 118px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 141%;
+    color: #414B56;
+}
+
+.circle {
+    display: flex;
+    width: 219.67px;
+    height: 219.67px;
+    border-radius: 50%;
+    border:10px solid #EDEEEF;
+}
+
+.circleTextContainer {
+    margin: auto;
+    text-align: center;
+}
+
+.circleText {
+    margin: auto;
+    text-align: center;
+    font-size: 52px;    
+}
+
+.sensitivity {
+    width: 125.14px;
+    left: 836.6px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #414B56;
+}
+
+.helioLogo {
+    margin: auto;
+    margin-left: 2.5rem;
+}
+
+.ultrasound {
+    margin: auto;
+    margin-left: 2.5rem;
+}
+
+@media only screen and (max-width: 1012px){
+    .parentContainer {
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;  
+        margin: 2rem;   
+    }
+    .microscope {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 558px){
+    .gridElements {
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, 186px);
+    }
+}
+

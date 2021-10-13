@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    margin-top: 1.875rem;
+}
+
+.evidenceContainer {
+    flex: 1 1 60vh;
+    margin-left: 7.625rem;
+}
+
+.microscope {
+    flex: 1 1 40vh; 
+    margin-right: 1.991rem;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.evidenceHeader {
+    width: 464px;
+    height: 68px;
+    left: 122px;
+    top: 187px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 130%;
+    color: #414B56;
+}
+
+.evidenceText {
+    width: 715px;
+    height: 56px;
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 141%;
+    color: #414B56;
+}
+
+@media all and (max-width: 1012px){
+    .container {
+        flex-direction: column;
+        align-items: center; 
+        margin: auto; 
+            
+    }
+}
+

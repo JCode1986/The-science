@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import styles from './trials.module.css';
 
 export default function Trials() {
     return (
